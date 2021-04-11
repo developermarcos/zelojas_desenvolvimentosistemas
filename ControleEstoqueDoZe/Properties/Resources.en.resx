@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonEstoqueCadastroEdicaoRemover" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="buttonExcluirUserControl" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonHeaderSairSistema" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="buttonListagemCadastro" xml:space="preserve">
+    <value>Sing Up</value>
+  </data>
+  <data name="buttonLoggarLoginSistema" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="buttonMenuClientes" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="buttonMenuEmpresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="buttonMenuEstoque" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="buttonMenuFornecedores" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="buttonMenuImportacaoXML" xml:space="preserve">
+    <value>Import XML</value>
+  </data>
+  <data name="buttonMenuProdutos" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="buttonMenuUsuarios" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="buttonMenuVendas" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="buttonSalvarEstoqueCadastroEdicaoAdicionar" xml:space="preserve">
+    <value>Alter</value>
+  </data>
+  <data name="buttonSalvarUserControl" xml:space="preserve">
+    <value>Salve</value>
+  </data>
+  <data name="checkBoxProdutosCadastroEdicaoAtivo" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="checkBoxProdutosCadastroEdicaoInativo" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="comboBoxListBoxMenuSelecionaIdioma" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="FormClientesCadastroEdicao" xml:space="preserve">
+    <value>Client Registration / Edition</value>
+  </data>
+  <data name="FormEmpresasCadastroEdicao" xml:space="preserve">
+    <value>Company Registration / Edition</value>
+  </data>
+  <data name="FormEstoqueCadastroEdicao" xml:space="preserve">
+    <value>Stock Registration / Edition</value>
+  </data>
+  <data name="FormImportacaoCadastroEdicao" xml:space="preserve">
+    <value>Import Registration / Edition</value>
+  </data>
+  <data name="FormLoginSistema" xml:space="preserve">
+    <value>Login EN</value>
+  </data>
+  <data name="FormProdutosCadastroEdicao" xml:space="preserve">
+    <value>Product Registration / Edition</value>
+  </data>
+  <data name="FormTelasListagem" xml:space="preserve">
+    <value>Zé Store</value>
+  </data>
+  <data name="FormUsuarioCadastroEdicao" xml:space="preserve">
+    <value>User Registration / Edition</value>
+  </data>
+  <data name="groupBoxProdutosCadastroEdicaoStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="groupBoxTipoEmpresaCadEditEstoque" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="groupBoxTipoEmpresaCadEditTipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="labelClientesCadastroEdicaoCpfCnpj" xml:space="preserve">
+    <value>SSN</value>
+  </data>
+  <data name="labelClientesCadastroEdicaoDataNascimento" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="labelClientesCadastroEdicaoNome" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelClientesCadastroEdicaoRazaoSocial" xml:space="preserve">
+    <value>Social Reason</value>
+  </data>
+  <data name="labelClientesCadastroEditarTitulo" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="labelEmpresaCadastroEdicaoCnpjCpf" xml:space="preserve">
+    <value>SSN</value>
+  </data>
+  <data name="labelEmpresaCadastroEdicaoFantasia" xml:space="preserve">
+    <value>Fantesy Name</value>
+  </data>
+  <data name="labelEmpresaCadastroEdicaoGerente" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="labelEmpresaCadastroEdicaoRazaoSocial" xml:space="preserve">
+    <value>Social Reason</value>
+  </data>
+  <data name="labelEmpresaCadastroEditarTitulo" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="labelEnderecoPadraoCep" xml:space="preserve">
+    <value>Zipcode</value>
+  </data>
+  <data name="labelEnderecoPadraoCidade" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="labelEnderecoPadraoEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="labelEnderecoPadraoNumero" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="labelEnderecoPadraoRua" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="labelEnderecoPadraoTelefone" xml:space="preserve">
+    <value>Number Phone</value>
+  </data>
+  <data name="labelEnderecoPadraoUf" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="labelEstoqueCadastroEdicaoMotivo" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="labelEstoqueCadastroEdicaoNome" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelEstoqueCadastroEdicaoQuantidadeAtual" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="labelEstoqueCadastroEdicaoQuantidadeParaAlterar" xml:space="preserve">
+    <value>Alter Quantity</value>
+  </data>
+  <data name="labelEstoqueCadastroEditarTitulo" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="labelFornecedorCadastroEdicaoFantasia" xml:space="preserve">
+    <value>Fantasy</value>
+  </data>
+  <data name="labelFornecedorCadastroEdicaoTitulo" xml:space="preserve">
+    <value>Supplier Registration</value>
+  </data>
+  <data name="labelFornecedoresCadastroEdicaoRazaoSocial" xml:space="preserve">
+    <value>Social Reason</value>
+  </data>
+  <data name="labelHeaderTituloSistema" xml:space="preserve">
+    <value>Zé Lojas</value>
+  </data>
+  <data name="labelNomeLoginSistema" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelProdutosCadastroEdicaoDescricao" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="labelProdutosCadastroEdicaoNome" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelProdutosCadastroTituloPagina" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="labelSenhaLoginSistema" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="labeltextBoxEnderecoPadraoBairro" xml:space="preserve">
+    <value>Neighborhood</value>
+  </data>
+  <data name="labelUsuarioCadastroEdicaoCpf" xml:space="preserve">
+    <value>SSN</value>
+  </data>
+  <data name="labelUsuarioCadastroEdicaoNome" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelUsuariosCadastroEdicaoTitulo" xml:space="preserve">
+    <value>User Registration / Edition</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditEstoque" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditFilial" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditFinanceiro" xml:space="preserve">
+    <value>Financial</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditGerente" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditMatriz" xml:space="preserve">
+    <value>Headquarters</value>
+  </data>
+  <data name="radioButtonEmpresaCadEditUsuario" xml:space="preserve">
+    <value>Users</value>
+  </data>
+</root>
