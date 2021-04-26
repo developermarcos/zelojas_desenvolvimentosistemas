@@ -17,11 +17,20 @@ namespace ControleEstoqueDoZe
         [STAThread]
         static void Main()
         {
-
-            //Thread.CurrentThread.CurrentUICulture = new CultureInfo(ConfigurationManager.AppSettings.Get("pt"));
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(ConfigurationManager.AppSettings.Get("Cultura"));
+            //CultureInfo cultureInfo = new CultureInfo(ConfigurationManager.AppSettings.Get("Cultura"));
+            //Thread.CurrentThread.CurrentUICulture = cultureInfo;
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt");
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("es");
+
+            MessageBoxManager.Yes = "Simmmm";
+            MessageBoxManager.No = "Noo";
+            MessageBoxManager.Cancel = "Cancelarr";
+            MessageBoxManager.Retry = "Refazerr";
+            MessageBoxManager.Ignore = "Ignorarr";
+            MessageBoxManager.OK = "Okk";
+            MessageBoxManager.Register();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

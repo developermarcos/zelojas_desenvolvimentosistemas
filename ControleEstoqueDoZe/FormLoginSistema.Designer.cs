@@ -42,23 +42,23 @@ namespace ControleEstoqueDoZe
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.panel1.Controls.Add(this.buttonLoggarLoginSistema);
             this.panel1.Controls.Add(this.textBoxSenhaLoginSistema);
             this.panel1.Controls.Add(this.textBoxNomeLoginSistema);
             this.panel1.Controls.Add(this.labelSenhaLoginSistema);
             this.panel1.Controls.Add(this.labelNomeLoginSistema);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // buttonLoggarLoginSistema
             // 
-            resources.ApplyResources(this.buttonLoggarLoginSistema, "buttonLoggarLoginSistema");
             this.buttonLoggarLoginSistema.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
             this.buttonLoggarLoginSistema.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
             this.buttonLoggarLoginSistema.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
             this.buttonLoggarLoginSistema.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
+            resources.ApplyResources(this.buttonLoggarLoginSistema, "buttonLoggarLoginSistema");
             this.buttonLoggarLoginSistema.ForeColor = System.Drawing.Color.Transparent;
             this.buttonLoggarLoginSistema.Name = "buttonLoggarLoginSistema";
             this.buttonLoggarLoginSistema.UseVisualStyleBackColor = false;
@@ -104,6 +104,7 @@ namespace ControleEstoqueDoZe
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.Controls.Add(this.labelNomeLojaLoginSistema);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "FormLoginSistema";
             this.Load += new System.EventHandler(this.FormLoginSistema_Load);
             this.panel1.ResumeLayout(false);

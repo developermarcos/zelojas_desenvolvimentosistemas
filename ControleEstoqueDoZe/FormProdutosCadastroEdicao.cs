@@ -23,6 +23,34 @@ namespace ControleEstoqueDoZe
             checkBoxProdutosCadastroEdicaoAtivo.Text = Properties.Resources.ResourceManager.GetString("checkBoxProdutosCadastroEdicaoAtivo");
             checkBoxProdutosCadastroEdicaoInativo.Text = Properties.Resources.ResourceManager.GetString("checkBoxProdutosCadastroEdicaoInativo");
 
+
+            UserControlSalvarExcluir salvarExcluirPadrao = new UserControlSalvarExcluir();
+            salvarExcluirPadrao.Dock = DockStyle.Bottom;
+            panelEditarExcluirPadrao.Controls.Add(salvarExcluirPadrao);
+            salvarExcluirPadrao.buttonFecharUserControl.Click += ButtonFecharUserControl_Click;
+
+
+            //Eventos de estilo para os campos
+            textBoxProdutosCadastroEdicaoNome.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxProdutosCadastroEdicaoNome.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            textBoxProdutosCadastroEdicaoDescricao.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxProdutosCadastroEdicaoDescricao.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            checkBoxProdutosCadastroEdicaoAtivo.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            checkBoxProdutosCadastroEdicaoAtivo.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            checkBoxProdutosCadastroEdicaoInativo.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            checkBoxProdutosCadastroEdicaoInativo.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
+            this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
+
+        }
+
+        private void ButtonFecharUserControl_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         private void FormProdutosCadastroEdicao_Load(object sender, EventArgs e)

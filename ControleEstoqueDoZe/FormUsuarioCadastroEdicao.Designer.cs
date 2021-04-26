@@ -51,7 +51,7 @@ namespace ControleEstoqueDoZe
             this.panelDadosEnderecoPadrao.Location = new System.Drawing.Point(592, 58);
             this.panelDadosEnderecoPadrao.Name = "panelDadosEnderecoPadrao";
             this.panelDadosEnderecoPadrao.Size = new System.Drawing.Size(580, 532);
-            this.panelDadosEnderecoPadrao.TabIndex = 4;
+            this.panelDadosEnderecoPadrao.TabIndex = 2;
             this.panelDadosEnderecoPadrao.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDadosEnderecoPadrao_Paint);
             // 
             // panel1
@@ -65,14 +65,14 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(42, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 532);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 1;
             // 
             // maskedTextBoxUsuarioCadastroEdicaoCpf
             // 
             this.maskedTextBoxUsuarioCadastroEdicaoCpf.Location = new System.Drawing.Point(263, 37);
             this.maskedTextBoxUsuarioCadastroEdicaoCpf.Name = "maskedTextBoxUsuarioCadastroEdicaoCpf";
             this.maskedTextBoxUsuarioCadastroEdicaoCpf.Size = new System.Drawing.Size(211, 20);
-            this.maskedTextBoxUsuarioCadastroEdicaoCpf.TabIndex = 17;
+            this.maskedTextBoxUsuarioCadastroEdicaoCpf.TabIndex = 2;
             // 
             // groupBoxTipoEmpresaCadEditEstoque
             // 
@@ -94,7 +94,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditEstoque.Location = new System.Drawing.Point(202, 25);
             this.radioButtonEmpresaCadEditEstoque.Name = "radioButtonEmpresaCadEditEstoque";
             this.radioButtonEmpresaCadEditEstoque.Size = new System.Drawing.Size(87, 24);
-            this.radioButtonEmpresaCadEditEstoque.TabIndex = 9;
+            this.radioButtonEmpresaCadEditEstoque.TabIndex = 5;
             this.radioButtonEmpresaCadEditEstoque.TabStop = true;
             this.radioButtonEmpresaCadEditEstoque.Text = "Estoque";
             this.radioButtonEmpresaCadEditEstoque.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditGerente.Location = new System.Drawing.Point(20, 25);
             this.radioButtonEmpresaCadEditGerente.Name = "radioButtonEmpresaCadEditGerente";
             this.radioButtonEmpresaCadEditGerente.Size = new System.Drawing.Size(86, 24);
-            this.radioButtonEmpresaCadEditGerente.TabIndex = 6;
+            this.radioButtonEmpresaCadEditGerente.TabIndex = 3;
             this.radioButtonEmpresaCadEditGerente.TabStop = true;
             this.radioButtonEmpresaCadEditGerente.Text = "Gerente";
             this.radioButtonEmpresaCadEditGerente.UseVisualStyleBackColor = true;
@@ -116,7 +116,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditUsuario.Location = new System.Drawing.Point(112, 25);
             this.radioButtonEmpresaCadEditUsuario.Name = "radioButtonEmpresaCadEditUsuario";
             this.radioButtonEmpresaCadEditUsuario.Size = new System.Drawing.Size(82, 24);
-            this.radioButtonEmpresaCadEditUsuario.TabIndex = 8;
+            this.radioButtonEmpresaCadEditUsuario.TabIndex = 4;
             this.radioButtonEmpresaCadEditUsuario.TabStop = true;
             this.radioButtonEmpresaCadEditUsuario.Text = "Usuário";
             this.radioButtonEmpresaCadEditUsuario.UseVisualStyleBackColor = true;
@@ -127,7 +127,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditFinanceiro.Location = new System.Drawing.Point(295, 24);
             this.radioButtonEmpresaCadEditFinanceiro.Name = "radioButtonEmpresaCadEditFinanceiro";
             this.radioButtonEmpresaCadEditFinanceiro.Size = new System.Drawing.Size(101, 24);
-            this.radioButtonEmpresaCadEditFinanceiro.TabIndex = 10;
+            this.radioButtonEmpresaCadEditFinanceiro.TabIndex = 6;
             this.radioButtonEmpresaCadEditFinanceiro.TabStop = true;
             this.radioButtonEmpresaCadEditFinanceiro.Text = "Financeiro";
             this.radioButtonEmpresaCadEditFinanceiro.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@ namespace ControleEstoqueDoZe
             this.labelUsuarioCadastroEdicaoCpf.Location = new System.Drawing.Point(259, 14);
             this.labelUsuarioCadastroEdicaoCpf.Name = "labelUsuarioCadastroEdicaoCpf";
             this.labelUsuarioCadastroEdicaoCpf.Size = new System.Drawing.Size(40, 20);
-            this.labelUsuarioCadastroEdicaoCpf.TabIndex = 2;
+            this.labelUsuarioCadastroEdicaoCpf.TabIndex = 10;
             this.labelUsuarioCadastroEdicaoCpf.Text = "CPF";
             // 
             // textBoxUsuarioCadastroEdicaoNome
@@ -178,7 +178,7 @@ namespace ControleEstoqueDoZe
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(592, 607);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 7;
+            this.panelEditarExcluirPadrao.TabIndex = 3;
             // 
             // FormUsuarioCadastroEdicao
             // 
@@ -190,6 +190,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.labelUsuariosCadastroEdicaoTitulo);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelDadosEnderecoPadrao);
+            this.KeyPreview = true;
             this.Name = "FormUsuarioCadastroEdicao";
             this.Text = "Usuario Cadastro/Edição";
             this.Load += new System.EventHandler(this.FormUsuarioCadastroEdicao_Load);

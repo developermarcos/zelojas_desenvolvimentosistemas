@@ -21,6 +21,13 @@ namespace ControleEstoqueDoZe
             InitializeComponent();
             buttonSalvarUserControl.Text = Properties.Resources.ResourceManager.GetString("buttonSalvarUserControl");
             buttonFecharUserControl.Text = Properties.Resources.ResourceManager.GetString("buttonExcluirUserControl");
+
+            //Eventos de estilo para os campos
+            buttonSalvarUserControl.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            buttonSalvarUserControl.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            buttonFecharUserControl.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            buttonFecharUserControl.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
         }
 
         

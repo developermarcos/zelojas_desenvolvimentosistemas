@@ -39,3 +39,47 @@ M:\Aulas\2021\Desenvolvimento de Sistemas\Zé lojas projeto\ControleEstoqueDoZe\
 M:\Aulas\2021\Desenvolvimento de Sistemas\Zé lojas projeto\ControleEstoqueDoZe\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.Properties.Resources.en.resources
 M:\Aulas\2021\Desenvolvimento de Sistemas\Zé lojas projeto\ControleEstoqueDoZe\ControleEstoqueDoZe\obj\Debug\es\ControleEstoqueDoZe.resources.dll
 M:\Aulas\2021\Desenvolvimento de Sistemas\Zé lojas projeto\ControleEstoqueDoZe\ControleEstoqueDoZe\obj\Debug\en\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.csprojAssemblyReference.cache
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormEmpresasCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormClientesCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormEstoqueCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormFornecedoresCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormImportacaoCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormLoginSistema.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormProdutosCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormTelasListagem.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormUsuarioCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormVendasCadastroEdicao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.Properties.Resources.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlMenuPrincipal.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlHeaderPrincipal.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlEnderecoPadrao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlSalvarExcluir.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.Properties.Resources.es.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.Properties.Resources.en.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.Properties.Resources.pt.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.csproj.GenerateResource.cache
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.exe
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.pdb
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\ControleEstoqueDoZe.exe.config
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\ControleEstoqueDoZe.exe
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\ControleEstoqueDoZe.pdb
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\es\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\en\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\pt\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.Permissions.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.Permissions.xml
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\es\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\en\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\pt\ControleEstoqueDoZe.resources.dll
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.csproj.CopyComplete
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormIdioma.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlDashboard.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormConfirmaAlteracao.resources

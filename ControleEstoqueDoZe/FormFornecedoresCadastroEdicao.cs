@@ -25,10 +25,30 @@ namespace ControleEstoqueDoZe
             salvarExcluirPadrao.Dock = DockStyle.Bottom;
             panelEditarExcluirPadrao.Controls.Add(salvarExcluirPadrao);
 
+            salvarExcluirPadrao.buttonFecharUserControl.Click += ButtonFecharUserControl_Click;
+
             this.Text = Properties.Resources.ResourceManager.GetString("FormFornecedoresCadastroEdicao");
             labelFornecedorCadastroEdicaoTitulo.Text = Properties.Resources.ResourceManager.GetString("labelFornecedorCadastroEdicaoTitulo");
             labelFornecedoresCadastroEdicaoRazaoSocial.Text = Properties.Resources.ResourceManager.GetString("labelFornecedoresCadastroEdicaoRazaoSocial");
             labelFornecedorCadastroEdicaoFantasia.Text = Properties.Resources.ResourceManager.GetString("labelFornecedorCadastroEdicaoFantasia");
+
+            //Eventos de estilo para os campos
+            textBoxFornecedoresCadastroEdicaoRazaoSocial.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxFornecedoresCadastroEdicaoRazaoSocial.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            maskedTextBoxFornecedorCadEditNome.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            maskedTextBoxFornecedorCadEditNome.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            textBoxFornecedorCadastroEdicaoFantasia.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxFornecedorCadastroEdicaoFantasia.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
+            this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
+        }
+
+        private void ButtonFecharUserControl_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         private void FormFornecedoresCadastroEdicao_Load(object sender, EventArgs e)

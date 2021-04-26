@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="." xml:space="preserve">
+    <value />
+  </data>
+  <data name=".." xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDashboard" xml:space="preserve">
+    <value>PAINEL DE CONTROLE</value>
+  </data>
   <data name="buttonEstoqueCadastroEdicaoRemover" xml:space="preserve">
     <value>Subtrair</value>
     <comment>Tela de estoque</comment>
@@ -181,6 +190,9 @@
   <data name="FormEstoqueCadastroEdicao" xml:space="preserve">
     <value>Estoque Cadastro / Edição</value>
   </data>
+  <data name="FormIdioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
   <data name="FormImportacaoCadastroEdicao" xml:space="preserve">
     <value>Cadastro / Edição de Importações</value>
   </data>
@@ -195,6 +207,9 @@
   </data>
   <data name="FormUsuarioCadastroEdicao" xml:space="preserve">
     <value>Cadastro / Edição de usuarios</value>
+  </data>
+  <data name="fraseDesejaFecharSistema" xml:space="preserve">
+    <value>Deseja fechar o sistema?</value>
   </data>
   <data name="groupBoxProdutosCadastroEdicaoStatus" xml:space="preserve">
     <value>Status</value>
@@ -283,6 +298,9 @@
   <data name="labelHeaderTituloSistema" xml:space="preserve">
     <value>Zé Lojassss</value>
   </data>
+  <data name="labelIdiomaTitulo" xml:space="preserve">
+    <value>Selecione o idioma</value>
+  </data>
   <data name="labelNomeLoginSistema" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -331,7 +349,13 @@
   <data name="radioButtonEmpresaCadEditUsuario" xml:space="preserve">
     <value>Usuário</value>
   </data>
+  <data name="salvarMensagemConfirmar" xml:space="preserve">
+    <value>Deseja salvar alteração</value>
+  </data>
   <data name="String1" xml:space="preserve">
     <value />
+  </data>
+  <data name="tituloDesejaFecharSistema" xml:space="preserve">
+    <value>Sair</value>
   </data>
 </root>

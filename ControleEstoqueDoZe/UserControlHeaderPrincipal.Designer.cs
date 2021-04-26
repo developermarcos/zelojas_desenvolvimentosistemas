@@ -30,6 +30,7 @@ namespace ControleEstoqueDoZe
         private void InitializeComponent()
         {
             this.panelHeaderPrincipalListagemEmpresas = new System.Windows.Forms.Panel();
+            this.buttonDashboard = new System.Windows.Forms.Button();
             this.buttonHeaderSairSistema = new System.Windows.Forms.Button();
             this.labelHeaderTituloSistema = new System.Windows.Forms.Label();
             this.panelHeaderPrincipalListagemEmpresas.SuspendLayout();
@@ -39,6 +40,7 @@ namespace ControleEstoqueDoZe
             // 
             this.panelHeaderPrincipalListagemEmpresas.AutoSize = true;
             this.panelHeaderPrincipalListagemEmpresas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panelHeaderPrincipalListagemEmpresas.Controls.Add(this.buttonDashboard);
             this.panelHeaderPrincipalListagemEmpresas.Controls.Add(this.buttonHeaderSairSistema);
             this.panelHeaderPrincipalListagemEmpresas.Controls.Add(this.labelHeaderTituloSistema);
             this.panelHeaderPrincipalListagemEmpresas.Location = new System.Drawing.Point(0, 0);
@@ -46,6 +48,22 @@ namespace ControleEstoqueDoZe
             this.panelHeaderPrincipalListagemEmpresas.Size = new System.Drawing.Size(1280, 60);
             this.panelHeaderPrincipalListagemEmpresas.TabIndex = 2;
             this.panelHeaderPrincipalListagemEmpresas.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHeaderPrincipalListagemEmpresas_Paint);
+            // 
+            // buttonDashboard
+            // 
+            this.buttonDashboard.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonDashboard.FlatAppearance.BorderSize = 2;
+            this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDashboard.Location = new System.Drawing.Point(296, 14);
+            this.buttonDashboard.Name = "buttonDashboard";
+            this.buttonDashboard.Size = new System.Drawing.Size(220, 35);
+            this.buttonDashboard.TabIndex = 7;
+            this.buttonDashboard.Text = "Dashboard";
+            this.buttonDashboard.UseVisualStyleBackColor = true;
+            this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
             // 
             // buttonHeaderSairSistema
             // 
@@ -90,7 +108,8 @@ namespace ControleEstoqueDoZe
         #endregion
 
         private System.Windows.Forms.Panel panelHeaderPrincipalListagemEmpresas;
-        private System.Windows.Forms.Button buttonHeaderSairSistema;
-        private System.Windows.Forms.Label labelHeaderTituloSistema;
+        public System.Windows.Forms.Button buttonHeaderSairSistema;
+        public System.Windows.Forms.Label labelHeaderTituloSistema;
+        public System.Windows.Forms.Button buttonDashboard;
     }
 }

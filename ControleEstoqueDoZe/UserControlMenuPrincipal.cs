@@ -27,7 +27,7 @@ namespace ControleEstoqueDoZe
             buttonMenuImportacaoXML.Text = Properties.Resources.ResourceManager.GetString("buttonMenuImportacaoXML");
             buttonMenuVendas.Text = Properties.Resources.ResourceManager.GetString("buttonMenuVendas");
             buttonMenuUsuarios.Text = Properties.Resources.ResourceManager.GetString("buttonMenuUsuarios");
-            comboBoxListBoxMenuSelecionaIdioma.Text = Properties.Resources.ResourceManager.GetString("comboBoxListBoxMenuSelecionaIdioma");
+            
         }
         public UserControlMenuPrincipal(String tela, String botao, FormTelasListagem formAtual)
         {
@@ -41,8 +41,7 @@ namespace ControleEstoqueDoZe
             buttonMenuImportacaoXML.Text = Properties.Resources.ResourceManager.GetString("buttonMenuImportacaoXML");
             buttonMenuVendas.Text = Properties.Resources.ResourceManager.GetString("buttonMenuVendas");
             buttonMenuUsuarios.Text = Properties.Resources.ResourceManager.GetString("buttonMenuUsuarios");
-            comboBoxListBoxMenuSelecionaIdioma.Text = Properties.Resources.ResourceManager.GetString("comboBoxListBoxMenuSelecionaIdioma");
-
+            
 
             botaoClicado = botao;
             telaAtual = tela;
@@ -57,94 +56,53 @@ namespace ControleEstoqueDoZe
 
         private void buttonMenuEmpresa_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "empresa")
-            {
-                botaoClicado = "empresa";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Empresas";
-                formPassado.telaAtual = "empresa";
-            }
+            
         }
 
         private void buttonMenuProdutos_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "produtos")
-            {
-                botaoClicado = "produtos";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Produtos";
-                formPassado.telaAtual = "produto";
-
-            }
+            
         }
 
         private void buttonMenuFornecedores_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "fornecedores")
-            {
-                botaoClicado = "fornecedores";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Fornecedores";
-                formPassado.telaAtual = "fornecedor";
-
-            }
+            
         }
 
         private void buttonMenuClientes_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "clientes")
-            {
-                botaoClicado = "clientes";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Clientes";
-                formPassado.telaAtual = "cliente";
-
-            }
+            
         }
 
         private void buttonMenuEstoque_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "estoque")
-            {
-                botaoClicado = "estoque";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Estoque";
-                formPassado.telaAtual = "estoque";
-
-            }
+           
         }
 
         private void buttonMenuImportacaoXML_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "importacao")
-            {
-                botaoClicado = "importacao";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Importacao XML";
-                formPassado.telaAtual = "importacao";
-            }
+            
         }
 
         private void buttonMenuVendas_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "vendas")
-            {
-                botaoClicado = "vendas";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Vendas";
-                formPassado.telaAtual = "venda";
-            }
+            
         }
 
         private void buttonMenuUsuarios_Click(object sender, EventArgs e)
         {
-            if (botaoClicado != "usuarios")
-            {
-                botaoClicado = "usuarios";
-                formPassado.buttonListagemCadastro.Text = "Cadastrar";
-                formPassado.labelTituloPaginaListagemPaginas.Text = "Usuarios";
-                formPassado.telaAtual = "usuario";
-            }
+            
+        }
+
+        private void comboBoxListBoxMenuSelecionaIdioma_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonMenuidioma_Click(object sender, EventArgs e)
+        {
+            FormIdioma formIdioma = new FormIdioma();
+            formIdioma.ShowDialog();
         }
     }
 }

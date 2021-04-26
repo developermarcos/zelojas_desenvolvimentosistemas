@@ -24,6 +24,8 @@ namespace ControleEstoqueDoZe
             salvarExcluirPadrao.Dock = DockStyle.Bottom;
             panelEditarExcluirPadrao.Controls.Add(salvarExcluirPadrao);
 
+            salvarExcluirPadrao.buttonFecharUserControl.Click += ButtonFecharUserControl_Click;
+
 
             this.Text = Properties.Resources.ResourceManager.GetString("FormUsuarioCadastroEdicao");
             labelUsuariosCadastroEdicaoTitulo.Text = Properties.Resources.ResourceManager.GetString("labelUsuariosCadastroEdicaoTitulo");
@@ -34,6 +36,33 @@ namespace ControleEstoqueDoZe
             radioButtonEmpresaCadEditUsuario.Text = Properties.Resources.ResourceManager.GetString("radioButtonEmpresaCadEditUsuario");
             radioButtonEmpresaCadEditEstoque.Text = Properties.Resources.ResourceManager.GetString("radioButtonEmpresaCadEditEstoque");
             radioButtonEmpresaCadEditFinanceiro.Text = Properties.Resources.ResourceManager.GetString("radioButtonEmpresaCadEditFinanceiro");
+
+            //Eventos de estilo para os campos
+            textBoxUsuarioCadastroEdicaoNome.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxUsuarioCadastroEdicaoNome.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            maskedTextBoxUsuarioCadastroEdicaoCpf.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            maskedTextBoxUsuarioCadastroEdicaoCpf.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            radioButtonEmpresaCadEditGerente.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            radioButtonEmpresaCadEditGerente.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            radioButtonEmpresaCadEditUsuario.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            radioButtonEmpresaCadEditUsuario.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            radioButtonEmpresaCadEditEstoque.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            radioButtonEmpresaCadEditEstoque.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            radioButtonEmpresaCadEditFinanceiro.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            radioButtonEmpresaCadEditFinanceiro.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
+            this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
+        }
+
+        private void ButtonFecharUserControl_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         private void label1_Click(object sender, EventArgs e)

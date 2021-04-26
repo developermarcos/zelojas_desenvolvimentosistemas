@@ -17,7 +17,19 @@ namespace ControleEstoqueDoZe
             InitializeComponent();
 
             this.Text = Properties.Resources.ResourceManager.GetString("FormImportacaoCadastroEdicao");
-            
+
+
+            UserControlSalvarExcluir salvarExcluirPadrao = new UserControlSalvarExcluir();
+            salvarExcluirPadrao.Dock = DockStyle.Bottom;
+            panelEditarExcluirPadrao.Controls.Add(salvarExcluirPadrao);
+
+            salvarExcluirPadrao.buttonFecharUserControl.Click += ButtonFecharUserControl_Click;
+
+        }
+
+        private void ButtonFecharUserControl_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         private void FormImportacaoCadastroEdicao_Load(object sender, EventArgs e)

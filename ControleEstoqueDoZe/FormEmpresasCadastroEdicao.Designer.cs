@@ -74,7 +74,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(36, 60);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 532);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 1;
             // 
             // labelEmpresaCadastroEdicaoGerente
             // 
@@ -92,7 +92,7 @@ namespace ControleEstoqueDoZe
             this.comboBoxEmpresaCadastroEdicaoGerente.Location = new System.Drawing.Point(263, 142);
             this.comboBoxEmpresaCadastroEdicaoGerente.Name = "comboBoxEmpresaCadastroEdicaoGerente";
             this.comboBoxEmpresaCadastroEdicaoGerente.Size = new System.Drawing.Size(229, 21);
-            this.comboBoxEmpresaCadastroEdicaoGerente.TabIndex = 20;
+            this.comboBoxEmpresaCadastroEdicaoGerente.TabIndex = 7;
             // 
             // textBoxEmpresaCadastroEdicaoFantasia
             // 
@@ -100,7 +100,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEmpresaCadastroEdicaoFantasia.Multiline = true;
             this.textBoxEmpresaCadastroEdicaoFantasia.Name = "textBoxEmpresaCadastroEdicaoFantasia";
             this.textBoxEmpresaCadastroEdicaoFantasia.Size = new System.Drawing.Size(229, 20);
-            this.textBoxEmpresaCadastroEdicaoFantasia.TabIndex = 19;
+            this.textBoxEmpresaCadastroEdicaoFantasia.TabIndex = 6;
             // 
             // labelEmpresaCadastroEdicaoFantasia
             // 
@@ -117,7 +117,7 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxEmpresaCadEditNome.Location = new System.Drawing.Point(263, 37);
             this.maskedTextBoxEmpresaCadEditNome.Name = "maskedTextBoxEmpresaCadEditNome";
             this.maskedTextBoxEmpresaCadEditNome.Size = new System.Drawing.Size(211, 20);
-            this.maskedTextBoxEmpresaCadEditNome.TabIndex = 17;
+            this.maskedTextBoxEmpresaCadEditNome.TabIndex = 2;
             // 
             // groupBoxTipoEmpresaCadEditTipo
             // 
@@ -126,8 +126,8 @@ namespace ControleEstoqueDoZe
             this.groupBoxTipoEmpresaCadEditTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxTipoEmpresaCadEditTipo.Location = new System.Drawing.Point(28, 63);
             this.groupBoxTipoEmpresaCadEditTipo.Name = "groupBoxTipoEmpresaCadEditTipo";
-            this.groupBoxTipoEmpresaCadEditTipo.Size = new System.Drawing.Size(201, 54);
-            this.groupBoxTipoEmpresaCadEditTipo.TabIndex = 15;
+            this.groupBoxTipoEmpresaCadEditTipo.Size = new System.Drawing.Size(411, 54);
+            this.groupBoxTipoEmpresaCadEditTipo.TabIndex = 3;
             this.groupBoxTipoEmpresaCadEditTipo.TabStop = false;
             this.groupBoxTipoEmpresaCadEditTipo.Text = "Tipo";
             // 
@@ -137,7 +137,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditMatriz.Location = new System.Drawing.Point(20, 25);
             this.radioButtonEmpresaCadEditMatriz.Name = "radioButtonEmpresaCadEditMatriz";
             this.radioButtonEmpresaCadEditMatriz.Size = new System.Drawing.Size(70, 24);
-            this.radioButtonEmpresaCadEditMatriz.TabIndex = 6;
+            this.radioButtonEmpresaCadEditMatriz.TabIndex = 4;
             this.radioButtonEmpresaCadEditMatriz.TabStop = true;
             this.radioButtonEmpresaCadEditMatriz.Text = "Matriz";
             this.radioButtonEmpresaCadEditMatriz.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@ namespace ControleEstoqueDoZe
             this.radioButtonEmpresaCadEditFilial.Location = new System.Drawing.Point(112, 25);
             this.radioButtonEmpresaCadEditFilial.Name = "radioButtonEmpresaCadEditFilial";
             this.radioButtonEmpresaCadEditFilial.Size = new System.Drawing.Size(58, 24);
-            this.radioButtonEmpresaCadEditFilial.TabIndex = 8;
+            this.radioButtonEmpresaCadEditFilial.TabIndex = 5;
             this.radioButtonEmpresaCadEditFilial.TabStop = true;
             this.radioButtonEmpresaCadEditFilial.Text = "Filial";
             this.radioButtonEmpresaCadEditFilial.UseVisualStyleBackColor = true;
@@ -186,14 +186,14 @@ namespace ControleEstoqueDoZe
             this.panelDadosEnderecoPadrao.Location = new System.Drawing.Point(577, 60);
             this.panelDadosEnderecoPadrao.Name = "panelDadosEnderecoPadrao";
             this.panelDadosEnderecoPadrao.Size = new System.Drawing.Size(580, 532);
-            this.panelDadosEnderecoPadrao.TabIndex = 22;
+            this.panelDadosEnderecoPadrao.TabIndex = 2;
             // 
             // panelEditarExcluirPadrao
             // 
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(577, 598);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 5;
+            this.panelEditarExcluirPadrao.TabIndex = 3;
             // 
             // FormEmpresasCadastroEdicao
             // 
@@ -205,6 +205,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.panelDadosEnderecoPadrao);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelEmpresaCadastroEditarTitulo);
+            this.KeyPreview = true;
             this.Name = "FormEmpresasCadastroEdicao";
             this.Text = "Cadastro Empresa";
             this.Load += new System.EventHandler(this.FormEmpresasCadastroEdicao_Load);

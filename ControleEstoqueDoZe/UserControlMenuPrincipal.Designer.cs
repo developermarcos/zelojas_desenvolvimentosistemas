@@ -30,8 +30,8 @@ namespace ControleEstoqueDoZe
         private void InitializeComponent()
         {
             this.panelMenuPrincipal = new System.Windows.Forms.Panel();
+            this.buttonMenuidioma = new System.Windows.Forms.Button();
             this.buttonMenuUsuarios = new System.Windows.Forms.Button();
-            this.comboBoxListBoxMenuSelecionaIdioma = new System.Windows.Forms.ComboBox();
             this.buttonMenuVendas = new System.Windows.Forms.Button();
             this.buttonMenuImportacaoXML = new System.Windows.Forms.Button();
             this.buttonMenuEstoque = new System.Windows.Forms.Button();
@@ -45,8 +45,8 @@ namespace ControleEstoqueDoZe
             // panelMenuPrincipal
             // 
             this.panelMenuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panelMenuPrincipal.Controls.Add(this.buttonMenuidioma);
             this.panelMenuPrincipal.Controls.Add(this.buttonMenuUsuarios);
-            this.panelMenuPrincipal.Controls.Add(this.comboBoxListBoxMenuSelecionaIdioma);
             this.panelMenuPrincipal.Controls.Add(this.buttonMenuVendas);
             this.panelMenuPrincipal.Controls.Add(this.buttonMenuImportacaoXML);
             this.panelMenuPrincipal.Controls.Add(this.buttonMenuEstoque);
@@ -60,6 +60,23 @@ namespace ControleEstoqueDoZe
             this.panelMenuPrincipal.TabIndex = 2;
             this.panelMenuPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenuPrincipal_Paint);
             // 
+            // buttonMenuidioma
+            // 
+            this.buttonMenuidioma.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonMenuidioma.FlatAppearance.BorderSize = 2;
+            this.buttonMenuidioma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMenuidioma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenuidioma.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonMenuidioma.Image = global::ControleEstoqueDoZe.Properties.Resources.usuarios;
+            this.buttonMenuidioma.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMenuidioma.Location = new System.Drawing.Point(40, 563);
+            this.buttonMenuidioma.Name = "buttonMenuidioma";
+            this.buttonMenuidioma.Size = new System.Drawing.Size(220, 35);
+            this.buttonMenuidioma.TabIndex = 8;
+            this.buttonMenuidioma.Text = "Idioma";
+            this.buttonMenuidioma.UseVisualStyleBackColor = true;
+            this.buttonMenuidioma.Click += new System.EventHandler(this.buttonMenuidioma_Click);
+            // 
             // buttonMenuUsuarios
             // 
             this.buttonMenuUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
@@ -72,27 +89,10 @@ namespace ControleEstoqueDoZe
             this.buttonMenuUsuarios.Location = new System.Drawing.Point(40, 505);
             this.buttonMenuUsuarios.Name = "buttonMenuUsuarios";
             this.buttonMenuUsuarios.Size = new System.Drawing.Size(220, 35);
-            this.buttonMenuUsuarios.TabIndex = 10;
+            this.buttonMenuUsuarios.TabIndex = 7;
             this.buttonMenuUsuarios.Text = "Usuários";
             this.buttonMenuUsuarios.UseVisualStyleBackColor = true;
             this.buttonMenuUsuarios.Click += new System.EventHandler(this.buttonMenuUsuarios_Click);
-            // 
-            // comboBoxListBoxMenuSelecionaIdioma
-            // 
-            this.comboBoxListBoxMenuSelecionaIdioma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.comboBoxListBoxMenuSelecionaIdioma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxListBoxMenuSelecionaIdioma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxListBoxMenuSelecionaIdioma.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.comboBoxListBoxMenuSelecionaIdioma.FormattingEnabled = true;
-            this.comboBoxListBoxMenuSelecionaIdioma.Items.AddRange(new object[] {
-            "Português",
-            "English",
-            "Español"});
-            this.comboBoxListBoxMenuSelecionaIdioma.Location = new System.Drawing.Point(40, 560);
-            this.comboBoxListBoxMenuSelecionaIdioma.Name = "comboBoxListBoxMenuSelecionaIdioma";
-            this.comboBoxListBoxMenuSelecionaIdioma.Size = new System.Drawing.Size(220, 28);
-            this.comboBoxListBoxMenuSelecionaIdioma.TabIndex = 9;
-            this.comboBoxListBoxMenuSelecionaIdioma.Text = "Idioma";
             // 
             // buttonMenuVendas
             // 
@@ -224,16 +224,15 @@ namespace ControleEstoqueDoZe
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelMenuPrincipal;
-        private System.Windows.Forms.Button buttonMenuUsuarios;
-        private System.Windows.Forms.ComboBox comboBoxListBoxMenuSelecionaIdioma;
-        private System.Windows.Forms.Button buttonMenuVendas;
-        private System.Windows.Forms.Button buttonMenuImportacaoXML;
-        private System.Windows.Forms.Button buttonMenuEstoque;
-        private System.Windows.Forms.Button buttonMenuClientes;
-        private System.Windows.Forms.Button buttonMenuFornecedores;
-        private System.Windows.Forms.Button buttonMenuProdutos;
-        private System.Windows.Forms.Button buttonMenuEmpresa;
+        public System.Windows.Forms.Panel panelMenuPrincipal;
+        public System.Windows.Forms.Button buttonMenuEmpresa;
+        public System.Windows.Forms.Button buttonMenuProdutos;
+        public System.Windows.Forms.Button buttonMenuFornecedores;
+        public System.Windows.Forms.Button buttonMenuUsuarios;
+        public System.Windows.Forms.Button buttonMenuVendas;
+        public System.Windows.Forms.Button buttonMenuImportacaoXML;
+        public System.Windows.Forms.Button buttonMenuEstoque;
+        public System.Windows.Forms.Button buttonMenuClientes;
+        public System.Windows.Forms.Button buttonMenuidioma;
     }
 }

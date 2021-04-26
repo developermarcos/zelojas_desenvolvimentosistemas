@@ -117,101 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelNomeLojaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 33</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBoxSenhaLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="labelNomeLojaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 33</value>
-  </data>
-  <data name="textBoxNomeLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 28</value>
-  </data>
-  <data name="&gt;&gt;textBoxSenhaLoginSistema.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLoginSistema.Name" xml:space="preserve">
-    <value>labelNomeLoginSistema</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormLoginSistema</value>
-  </data>
-  <data name="labelSenhaLoginSistema.Text" xml:space="preserve">
-    <value>Senha</value>
-  </data>
-  <data name="textBoxSenhaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 140</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLojaLoginSistema.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelNomeLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
-  </data>
-  <data name="buttonLoggarLoginSistema.Text" xml:space="preserve">
-    <value>Logar</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 280</value>
-  </data>
-  <data name="&gt;&gt;textBoxSenhaLoginSistema.Name" xml:space="preserve">
-    <value>textBoxSenhaLoginSistema</value>
-  </data>
-  <data name="labelSenhaLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="&gt;&gt;textBoxNomeLoginSistema.Name" xml:space="preserve">
-    <value>textBoxNomeLoginSistema</value>
-  </data>
-  <data name="buttonLoggarLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLojaLoginSistema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonLoggarLoginSistema.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLoginSistema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelNomeLoginSistema.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelNomeLojaLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 85</value>
-  </data>
-  <data name="labelSenhaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonLoggarLoginSistema.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;buttonLoggarLoginSistema.Name" xml:space="preserve">
-    <value>buttonLoggarLoginSistema</value>
-  </data>
-  <data name="&gt;&gt;textBoxSenhaLoginSistema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxNomeLoginSistema.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="labelNomeLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 61</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonLoggarLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="buttonLoggarLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
     <value>140, 180</value>
@@ -219,112 +131,200 @@
   <data name="buttonLoggarLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 38</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLojaLoginSistema.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBoxNomeLoginSistema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLoginSistema.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelSenhaLoginSistema.Name" xml:space="preserve">
-    <value>labelSenhaLoginSistema</value>
-  </data>
-  <data name="labelNomeLoginSistema.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
-  <data name="textBoxSenhaLoginSistema.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;textBoxNomeLoginSistema.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelSenhaLoginSistema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBoxNomeLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 83</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonLoggarLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonLoggarLoginSistema.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Login</value>
-  </data>
-  <data name="&gt;&gt;labelSenhaLoginSistema.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="labelNomeLojaLoginSistema.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="buttonLoggarLoginSistema.Text" xml:space="preserve">
+    <value>Logar</value>
   </data>
-  <data name="&gt;&gt;labelSenhaLoginSistema.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLoginSistema.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="textBoxSenhaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 28</value>
-  </data>
-  <data name="labelNomeLojaLoginSistema.Text" xml:space="preserve">
-    <value>Zé Lojas</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="textBoxNomeLoginSistema.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelNomeLojaLoginSistema.Name" xml:space="preserve">
-    <value>labelNomeLojaLoginSistema</value>
-  </data>
-  <data name="labelNomeLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelNomeLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>804, 451</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelNomeLojaLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 21.75pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;textBoxSenhaLoginSistema.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="labelSenhaLoginSistema.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelSenhaLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="labelSenhaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 118</value>
-  </data>
-  <data name="textBoxNomeLoginSistema.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;buttonLoggarLoginSistema.Name" xml:space="preserve">
+    <value>buttonLoggarLoginSistema</value>
   </data>
   <data name="&gt;&gt;buttonLoggarLoginSistema.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;buttonLoggarLoginSistema.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonLoggarLoginSistema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxSenhaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="textBoxSenhaLoginSistema.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxSenhaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 28</value>
+  </data>
+  <data name="textBoxSenhaLoginSistema.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxSenhaLoginSistema.Name" xml:space="preserve">
+    <value>textBoxSenhaLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;textBoxSenhaLoginSistema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSenhaLoginSistema.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxSenhaLoginSistema.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxNomeLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 83</value>
+  </data>
+  <data name="textBoxNomeLoginSistema.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxNomeLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 28</value>
+  </data>
+  <data name="textBoxNomeLoginSistema.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxNomeLoginSistema.Name" xml:space="preserve">
+    <value>textBoxNomeLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;textBoxNomeLoginSistema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxNomeLoginSistema.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxNomeLoginSistema.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelSenhaLoginSistema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSenhaLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="labelSenhaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 118</value>
+  </data>
+  <data name="labelSenhaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="labelSenhaLoginSistema.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelSenhaLoginSistema.Text" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="&gt;&gt;labelSenhaLoginSistema.Name" xml:space="preserve">
+    <value>labelSenhaLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;labelSenhaLoginSistema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSenhaLoginSistema.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labelSenhaLoginSistema.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelNomeLoginSistema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNomeLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="labelNomeLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 61</value>
+  </data>
+  <data name="labelNomeLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="labelNomeLoginSistema.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelNomeLoginSistema.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLoginSistema.Name" xml:space="preserve">
+    <value>labelNomeLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLoginSistema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLoginSistema.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLoginSistema.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 85</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 280</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.75pt, style=Bold</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 33</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 33</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelNomeLojaLoginSistema.Text" xml:space="preserve">
+    <value>Zé Lojas</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLojaLoginSistema.Name" xml:space="preserve">
+    <value>labelNomeLojaLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLojaLoginSistema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLojaLoginSistema.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelNomeLojaLoginSistema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>804, 451</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormLoginSistema</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

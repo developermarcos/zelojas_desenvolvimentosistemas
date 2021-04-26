@@ -63,7 +63,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEnderecoPadraoRua.Location = new System.Drawing.Point(307, 33);
             this.textBoxEnderecoPadraoRua.Name = "textBoxEnderecoPadraoRua";
             this.textBoxEnderecoPadraoRua.Size = new System.Drawing.Size(250, 20);
-            this.textBoxEnderecoPadraoRua.TabIndex = 1;
+            this.textBoxEnderecoPadraoRua.TabIndex = 2;
             this.textBoxEnderecoPadraoRua.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxEnderecoPadraoBairro
@@ -89,7 +89,7 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxEnderecoPadraoCep.Location = new System.Drawing.Point(28, 33);
             this.maskedTextBoxEnderecoPadraoCep.Name = "maskedTextBoxEnderecoPadraoCep";
             this.maskedTextBoxEnderecoPadraoCep.Size = new System.Drawing.Size(250, 20);
-            this.maskedTextBoxEnderecoPadraoCep.TabIndex = 4;
+            this.maskedTextBoxEnderecoPadraoCep.TabIndex = 1;
             // 
             // labelEnderecoPadraoCep
             // 
@@ -107,7 +107,8 @@ namespace ControleEstoqueDoZe
             this.textBoxEnderecoPadraoNumero.Location = new System.Drawing.Point(307, 81);
             this.textBoxEnderecoPadraoNumero.Name = "textBoxEnderecoPadraoNumero";
             this.textBoxEnderecoPadraoNumero.Size = new System.Drawing.Size(250, 20);
-            this.textBoxEnderecoPadraoNumero.TabIndex = 7;
+            this.textBoxEnderecoPadraoNumero.TabIndex = 4;
+            this.textBoxEnderecoPadraoNumero.TextChanged += new System.EventHandler(this.textBoxEnderecoPadraoNumero_TextChanged);
             // 
             // labelEnderecoPadraoNumero
             // 
@@ -125,7 +126,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEnderecoPadraoCidade.Location = new System.Drawing.Point(27, 129);
             this.textBoxEnderecoPadraoCidade.Name = "textBoxEnderecoPadraoCidade";
             this.textBoxEnderecoPadraoCidade.Size = new System.Drawing.Size(250, 20);
-            this.textBoxEnderecoPadraoCidade.TabIndex = 9;
+            this.textBoxEnderecoPadraoCidade.TabIndex = 5;
             // 
             // labelEnderecoPadraoCidade
             // 
@@ -172,7 +173,7 @@ namespace ControleEstoqueDoZe
             this.comboBoxEnderecoPadraoUf.Location = new System.Drawing.Point(307, 129);
             this.comboBoxEnderecoPadraoUf.Name = "comboBoxEnderecoPadraoUf";
             this.comboBoxEnderecoPadraoUf.Size = new System.Drawing.Size(250, 21);
-            this.comboBoxEnderecoPadraoUf.TabIndex = 10;
+            this.comboBoxEnderecoPadraoUf.TabIndex = 6;
             // 
             // labelEnderecoPadraoUf
             // 
@@ -201,7 +202,7 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxEnderecoPadraoTelefone.Location = new System.Drawing.Point(307, 177);
             this.maskedTextBoxEnderecoPadraoTelefone.Name = "maskedTextBoxEnderecoPadraoTelefone";
             this.maskedTextBoxEnderecoPadraoTelefone.Size = new System.Drawing.Size(250, 20);
-            this.maskedTextBoxEnderecoPadraoTelefone.TabIndex = 14;
+            this.maskedTextBoxEnderecoPadraoTelefone.TabIndex = 8;
             // 
             // labelEnderecoPadraoTelefone
             // 
@@ -219,7 +220,7 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxEnderecoPadraoEmail.Location = new System.Drawing.Point(27, 177);
             this.maskedTextBoxEnderecoPadraoEmail.Name = "maskedTextBoxEnderecoPadraoEmail";
             this.maskedTextBoxEnderecoPadraoEmail.Size = new System.Drawing.Size(250, 20);
-            this.maskedTextBoxEnderecoPadraoEmail.TabIndex = 16;
+            this.maskedTextBoxEnderecoPadraoEmail.TabIndex = 7;
             // 
             // UserControlEnderecoPadrao
             // 

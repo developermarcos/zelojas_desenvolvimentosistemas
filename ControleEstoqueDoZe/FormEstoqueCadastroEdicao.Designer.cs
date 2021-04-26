@@ -77,7 +77,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(43, 77);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 293);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 1;
             // 
             // buttonEstoqueCadastroEdicaoRemover
             // 
@@ -88,7 +88,7 @@ namespace ControleEstoqueDoZe
             this.buttonEstoqueCadastroEdicaoRemover.Location = new System.Drawing.Point(275, 228);
             this.buttonEstoqueCadastroEdicaoRemover.Name = "buttonEstoqueCadastroEdicaoRemover";
             this.buttonEstoqueCadastroEdicaoRemover.Size = new System.Drawing.Size(160, 45);
-            this.buttonEstoqueCadastroEdicaoRemover.TabIndex = 29;
+            this.buttonEstoqueCadastroEdicaoRemover.TabIndex = 7;
             this.buttonEstoqueCadastroEdicaoRemover.Text = "Subtrair";
             this.buttonEstoqueCadastroEdicaoRemover.UseVisualStyleBackColor = false;
             // 
@@ -101,7 +101,7 @@ namespace ControleEstoqueDoZe
             this.buttonSalvarEstoqueCadastroEdicaoAdicionar.Location = new System.Drawing.Point(82, 228);
             this.buttonSalvarEstoqueCadastroEdicaoAdicionar.Name = "buttonSalvarEstoqueCadastroEdicaoAdicionar";
             this.buttonSalvarEstoqueCadastroEdicaoAdicionar.Size = new System.Drawing.Size(160, 45);
-            this.buttonSalvarEstoqueCadastroEdicaoAdicionar.TabIndex = 28;
+            this.buttonSalvarEstoqueCadastroEdicaoAdicionar.TabIndex = 6;
             this.buttonSalvarEstoqueCadastroEdicaoAdicionar.Text = "Adicionar";
             this.buttonSalvarEstoqueCadastroEdicaoAdicionar.UseVisualStyleBackColor = false;
             // 
@@ -111,7 +111,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEstoqueCadastroEdicaoMotivo.Multiline = true;
             this.textBoxEstoqueCadastroEdicaoMotivo.Name = "textBoxEstoqueCadastroEdicaoMotivo";
             this.textBoxEstoqueCadastroEdicaoMotivo.Size = new System.Drawing.Size(229, 77);
-            this.textBoxEstoqueCadastroEdicaoMotivo.TabIndex = 27;
+            this.textBoxEstoqueCadastroEdicaoMotivo.TabIndex = 5;
             // 
             // labelEstoqueCadastroEdicaoMotivo
             // 
@@ -138,7 +138,7 @@ namespace ControleEstoqueDoZe
             this.numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar.Location = new System.Drawing.Point(29, 106);
             this.numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar.Name = "numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar";
             this.numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar.Size = new System.Drawing.Size(65, 20);
-            this.numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar.TabIndex = 24;
+            this.numericUpDownEstoqueCadastroEdicaoQuantidadeAlterar.TabIndex = 4;
             // 
             // textBoxEstoqueCadastroEdicaoQuantidadeAtual
             // 
@@ -146,7 +146,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEstoqueCadastroEdicaoQuantidadeAtual.Multiline = true;
             this.textBoxEstoqueCadastroEdicaoQuantidadeAtual.Name = "textBoxEstoqueCadastroEdicaoQuantidadeAtual";
             this.textBoxEstoqueCadastroEdicaoQuantidadeAtual.Size = new System.Drawing.Size(123, 20);
-            this.textBoxEstoqueCadastroEdicaoQuantidadeAtual.TabIndex = 23;
+            this.textBoxEstoqueCadastroEdicaoQuantidadeAtual.TabIndex = 3;
             // 
             // labelEstoqueCadastroEdicaoQuantidadeAtual
             // 
@@ -164,7 +164,8 @@ namespace ControleEstoqueDoZe
             this.textBoxEstoqueCadastroEdicaoID.Multiline = true;
             this.textBoxEstoqueCadastroEdicaoID.Name = "textBoxEstoqueCadastroEdicaoID";
             this.textBoxEstoqueCadastroEdicaoID.Size = new System.Drawing.Size(54, 20);
-            this.textBoxEstoqueCadastroEdicaoID.TabIndex = 21;
+            this.textBoxEstoqueCadastroEdicaoID.TabIndex = 1;
+            this.textBoxEstoqueCadastroEdicaoID.TabStop = false;
             // 
             // labelEstoqueCadastroEdicaoID
             // 
@@ -182,7 +183,7 @@ namespace ControleEstoqueDoZe
             this.textBoxEstoqueCadastroEdicaoNome.Multiline = true;
             this.textBoxEstoqueCadastroEdicaoNome.Name = "textBoxEstoqueCadastroEdicaoNome";
             this.textBoxEstoqueCadastroEdicaoNome.Size = new System.Drawing.Size(229, 20);
-            this.textBoxEstoqueCadastroEdicaoNome.TabIndex = 1;
+            this.textBoxEstoqueCadastroEdicaoNome.TabIndex = 2;
             // 
             // labelEstoqueCadastroEdicaoNome
             // 
@@ -200,7 +201,7 @@ namespace ControleEstoqueDoZe
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(583, 610);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 9;
+            this.panelEditarExcluirPadrao.TabIndex = 2;
             // 
             // FormEstoqueCadastroEdicao
             // 
@@ -211,6 +212,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.panelEditarExcluirPadrao);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelEstoqueCadastroEditarTitulo);
+            this.KeyPreview = true;
             this.Name = "FormEstoqueCadastroEdicao";
             this.Text = "Estoque Cadastro/Edição";
             this.Load += new System.EventHandler(this.FormEstoqueCadastroEdicao_Load);

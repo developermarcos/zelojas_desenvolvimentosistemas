@@ -34,6 +34,7 @@ namespace ControleEstoqueDoZe
             this.buttonListagemCadastro = new System.Windows.Forms.Button();
             this.labelTituloPaginaListagemPaginas = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panelListagemConteudos = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@ namespace ControleEstoqueDoZe
             this.labelTituloPaginaListagemPaginas.Location = new System.Drawing.Point(14, 13);
             this.labelTituloPaginaListagemPaginas.Name = "labelTituloPaginaListagemPaginas";
             this.labelTituloPaginaListagemPaginas.Size = new System.Drawing.Size(137, 20);
-            this.labelTituloPaginaListagemPaginas.TabIndex = 0;
+            this.labelTituloPaginaListagemPaginas.TabIndex = 2;
             this.labelTituloPaginaListagemPaginas.Text = "Titulo da página";
             this.labelTituloPaginaListagemPaginas.Click += new System.EventHandler(this.labelTituloPaginaListagemPaginas_Click);
             // 
@@ -90,18 +91,28 @@ namespace ControleEstoqueDoZe
             this.panel2.TabIndex = 5;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // panelListagemConteudos
+            // 
+            this.panelListagemConteudos.Location = new System.Drawing.Point(320, 125);
+            this.panelListagemConteudos.Name = "panelListagemConteudos";
+            this.panelListagemConteudos.Size = new System.Drawing.Size(932, 544);
+            this.panelListagemConteudos.TabIndex = 5;
+            // 
             // FormTelasListagem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.panelListagemConteudos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelHeaderPrincipal);
             this.Controls.Add(this.panelMenuPrincipal);
+            this.KeyPreview = true;
             this.Name = "FormTelasListagem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empresas";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormTelasListagem_FormClosing);
             this.Load += new System.EventHandler(this.FormListagemEmpresas_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -116,5 +127,6 @@ namespace ControleEstoqueDoZe
         private System.Windows.Forms.Panel panel2;
         public System.Windows.Forms.Button buttonListagemCadastro;
         public System.Windows.Forms.Label labelTituloPaginaListagemPaginas;
+        public System.Windows.Forms.Panel panelListagemConteudos;
     }
 }

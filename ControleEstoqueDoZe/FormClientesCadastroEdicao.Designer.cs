@@ -58,7 +58,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(34, 73);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 532);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 1;
             // 
             // labelClientesCadastroEdicaoDataNascimento
             // 
@@ -75,7 +75,7 @@ namespace ControleEstoqueDoZe
             this.dateTimePickerClientesCadastroEdicaoDataNascimento.Location = new System.Drawing.Point(264, 80);
             this.dateTimePickerClientesCadastroEdicaoDataNascimento.Name = "dateTimePickerClientesCadastroEdicaoDataNascimento";
             this.dateTimePickerClientesCadastroEdicaoDataNascimento.Size = new System.Drawing.Size(222, 20);
-            this.dateTimePickerClientesCadastroEdicaoDataNascimento.TabIndex = 20;
+            this.dateTimePickerClientesCadastroEdicaoDataNascimento.TabIndex = 4;
             this.dateTimePickerClientesCadastroEdicaoDataNascimento.Value = new System.DateTime(2021, 3, 28, 0, 0, 0, 0);
             // 
             // textBoxClientesCadastroEdicaoNomeRazaoSocial
@@ -84,7 +84,7 @@ namespace ControleEstoqueDoZe
             this.textBoxClientesCadastroEdicaoNomeRazaoSocial.Multiline = true;
             this.textBoxClientesCadastroEdicaoNomeRazaoSocial.Name = "textBoxClientesCadastroEdicaoNomeRazaoSocial";
             this.textBoxClientesCadastroEdicaoNomeRazaoSocial.Size = new System.Drawing.Size(229, 20);
-            this.textBoxClientesCadastroEdicaoNomeRazaoSocial.TabIndex = 19;
+            this.textBoxClientesCadastroEdicaoNomeRazaoSocial.TabIndex = 3;
             // 
             // labelClientesCadastroEdicaoRazaoSocial
             // 
@@ -101,7 +101,8 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxEmpresaCadEditNome.Location = new System.Drawing.Point(263, 37);
             this.maskedTextBoxEmpresaCadEditNome.Name = "maskedTextBoxEmpresaCadEditNome";
             this.maskedTextBoxEmpresaCadEditNome.Size = new System.Drawing.Size(211, 20);
-            this.maskedTextBoxEmpresaCadEditNome.TabIndex = 17;
+            this.maskedTextBoxEmpresaCadEditNome.TabIndex = 2;
+            this.maskedTextBoxEmpresaCadEditNome.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBoxEmpresaCadEditNome_MaskInputRejected);
             // 
             // labelClientesCadastroEdicaoCpfCnpj
             // 
@@ -115,6 +116,7 @@ namespace ControleEstoqueDoZe
             // 
             // textBoxClientesCadastroEdicaoNome
             // 
+            this.textBoxClientesCadastroEdicaoNome.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxClientesCadastroEdicaoNome.Location = new System.Drawing.Point(28, 36);
             this.textBoxClientesCadastroEdicaoNome.Multiline = true;
             this.textBoxClientesCadastroEdicaoNome.Name = "textBoxClientesCadastroEdicaoNome";
@@ -147,14 +149,14 @@ namespace ControleEstoqueDoZe
             this.panelDadosEnderecoPadrao.Location = new System.Drawing.Point(575, 73);
             this.panelDadosEnderecoPadrao.Name = "panelDadosEnderecoPadrao";
             this.panelDadosEnderecoPadrao.Size = new System.Drawing.Size(580, 532);
-            this.panelDadosEnderecoPadrao.TabIndex = 7;
+            this.panelDadosEnderecoPadrao.TabIndex = 2;
             // 
             // panelEditarExcluirPadrao
             // 
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(575, 621);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 8;
+            this.panelEditarExcluirPadrao.TabIndex = 3;
             // 
             // FormClientesCadastroEdicao
             // 
@@ -166,6 +168,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.panelDadosEnderecoPadrao);
             this.Controls.Add(this.labelClientesCadastroEditarTitulo);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "FormClientesCadastroEdicao";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormClientesCadastroEdicao_Load);

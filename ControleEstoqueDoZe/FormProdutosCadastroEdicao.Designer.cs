@@ -70,7 +70,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(44, 80);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 222);
-            this.panel1.TabIndex = 21;
+            this.panel1.TabIndex = 1;
             // 
             // groupBoxProdutosCadastroEdicaoStatus
             // 
@@ -90,7 +90,7 @@ namespace ControleEstoqueDoZe
             this.checkBoxProdutosCadastroEdicaoInativo.Location = new System.Drawing.Point(7, 58);
             this.checkBoxProdutosCadastroEdicaoInativo.Name = "checkBoxProdutosCadastroEdicaoInativo";
             this.checkBoxProdutosCadastroEdicaoInativo.Size = new System.Drawing.Size(75, 24);
-            this.checkBoxProdutosCadastroEdicaoInativo.TabIndex = 1;
+            this.checkBoxProdutosCadastroEdicaoInativo.TabIndex = 5;
             this.checkBoxProdutosCadastroEdicaoInativo.Text = "Inativo";
             this.checkBoxProdutosCadastroEdicaoInativo.UseVisualStyleBackColor = true;
             // 
@@ -100,7 +100,7 @@ namespace ControleEstoqueDoZe
             this.checkBoxProdutosCadastroEdicaoAtivo.Location = new System.Drawing.Point(7, 26);
             this.checkBoxProdutosCadastroEdicaoAtivo.Name = "checkBoxProdutosCadastroEdicaoAtivo";
             this.checkBoxProdutosCadastroEdicaoAtivo.Size = new System.Drawing.Size(63, 24);
-            this.checkBoxProdutosCadastroEdicaoAtivo.TabIndex = 0;
+            this.checkBoxProdutosCadastroEdicaoAtivo.TabIndex = 4;
             this.checkBoxProdutosCadastroEdicaoAtivo.Text = "Ativo";
             this.checkBoxProdutosCadastroEdicaoAtivo.UseVisualStyleBackColor = true;
             // 
@@ -110,7 +110,7 @@ namespace ControleEstoqueDoZe
             this.textBoxProdutosCadastroEdicaoDescricao.Multiline = true;
             this.textBoxProdutosCadastroEdicaoDescricao.Name = "textBoxProdutosCadastroEdicaoDescricao";
             this.textBoxProdutosCadastroEdicaoDescricao.Size = new System.Drawing.Size(229, 88);
-            this.textBoxProdutosCadastroEdicaoDescricao.TabIndex = 23;
+            this.textBoxProdutosCadastroEdicaoDescricao.TabIndex = 3;
             // 
             // labelProdutosCadastroEdicaoDescricao
             // 
@@ -128,7 +128,8 @@ namespace ControleEstoqueDoZe
             this.textBoxProdutosCadastroEdicaoID.Multiline = true;
             this.textBoxProdutosCadastroEdicaoID.Name = "textBoxProdutosCadastroEdicaoID";
             this.textBoxProdutosCadastroEdicaoID.Size = new System.Drawing.Size(54, 20);
-            this.textBoxProdutosCadastroEdicaoID.TabIndex = 21;
+            this.textBoxProdutosCadastroEdicaoID.TabIndex = 1;
+            this.textBoxProdutosCadastroEdicaoID.TabStop = false;
             // 
             // labelProdutosCadastroEdicaoID
             // 
@@ -146,7 +147,7 @@ namespace ControleEstoqueDoZe
             this.textBoxProdutosCadastroEdicaoNome.Multiline = true;
             this.textBoxProdutosCadastroEdicaoNome.Name = "textBoxProdutosCadastroEdicaoNome";
             this.textBoxProdutosCadastroEdicaoNome.Size = new System.Drawing.Size(229, 20);
-            this.textBoxProdutosCadastroEdicaoNome.TabIndex = 1;
+            this.textBoxProdutosCadastroEdicaoNome.TabIndex = 2;
             // 
             // labelProdutosCadastroEdicaoNome
             // 
@@ -163,14 +164,14 @@ namespace ControleEstoqueDoZe
             this.panelDadosEnderecoPadrao.Location = new System.Drawing.Point(592, 80);
             this.panelDadosEnderecoPadrao.Name = "panelDadosEnderecoPadrao";
             this.panelDadosEnderecoPadrao.Size = new System.Drawing.Size(580, 497);
-            this.panelDadosEnderecoPadrao.TabIndex = 22;
+            this.panelDadosEnderecoPadrao.TabIndex = 2;
             // 
             // panelEditarExcluirPadrao
             // 
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(592, 607);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 23;
+            this.panelEditarExcluirPadrao.TabIndex = 3;
             // 
             // FormProdutosCadastroEdicao
             // 
@@ -182,6 +183,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.panelDadosEnderecoPadrao);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelProdutosCadastroTituloPagina);
+            this.KeyPreview = true;
             this.Name = "FormProdutosCadastroEdicao";
             this.Text = "Produtos Cadastro/Edição";
             this.Load += new System.EventHandler(this.FormProdutosCadastroEdicao_Load);

@@ -22,6 +22,19 @@ namespace ControleEstoqueDoZe
             labelNomeLoginSistema.Text = Properties.Resources.ResourceManager.GetString("labelNomeLoginSistema");
             labelSenhaLoginSistema.Text = Properties.Resources.ResourceManager.GetString("labelSenhaLoginSistema");
             buttonLoggarLoginSistema.Text = Properties.Resources.ResourceManager.GetString("buttonLoggarLoginSistema");
+
+            //Eventos de estilo para os campos
+            textBoxNomeLoginSistema.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxNomeLoginSistema.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            textBoxSenhaLoginSistema.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            textBoxSenhaLoginSistema.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            buttonLoggarLoginSistema.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            buttonLoggarLoginSistema.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
+            this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
         }
 
         private void textBoxNomeLoginSistema_TextChanged(object sender, EventArgs e)
@@ -31,7 +44,7 @@ namespace ControleEstoqueDoZe
 
         private void buttonLoggarLoginSistema_Click(object sender, EventArgs e)
         {
-            FormTelasListagem formPrincipal = new FormTelasListagem("empresas", "Cadastrar", "Empresas");
+            FormTelasListagem formPrincipal = new FormTelasListagem("dashboard","", "Dashboard");
             this.Hide();
             formPrincipal.Show();
 

@@ -65,7 +65,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Location = new System.Drawing.Point(47, 68);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(513, 532);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 1;
             // 
             // textBoxFornecedorCadastroEdicaoFantasia
             // 
@@ -73,7 +73,7 @@ namespace ControleEstoqueDoZe
             this.textBoxFornecedorCadastroEdicaoFantasia.Multiline = true;
             this.textBoxFornecedorCadastroEdicaoFantasia.Name = "textBoxFornecedorCadastroEdicaoFantasia";
             this.textBoxFornecedorCadastroEdicaoFantasia.Size = new System.Drawing.Size(229, 20);
-            this.textBoxFornecedorCadastroEdicaoFantasia.TabIndex = 19;
+            this.textBoxFornecedorCadastroEdicaoFantasia.TabIndex = 3;
             // 
             // labelFornecedorCadastroEdicaoFantasia
             // 
@@ -90,7 +90,7 @@ namespace ControleEstoqueDoZe
             this.maskedTextBoxFornecedorCadEditNome.Location = new System.Drawing.Point(263, 37);
             this.maskedTextBoxFornecedorCadEditNome.Name = "maskedTextBoxFornecedorCadEditNome";
             this.maskedTextBoxFornecedorCadEditNome.Size = new System.Drawing.Size(211, 20);
-            this.maskedTextBoxFornecedorCadEditNome.TabIndex = 17;
+            this.maskedTextBoxFornecedorCadEditNome.TabIndex = 2;
             // 
             // labelFornecedoresCadastroEdicaoCnpjCpf
             // 
@@ -125,14 +125,14 @@ namespace ControleEstoqueDoZe
             this.panelDadosEnderecoPadrao.Location = new System.Drawing.Point(582, 68);
             this.panelDadosEnderecoPadrao.Name = "panelDadosEnderecoPadrao";
             this.panelDadosEnderecoPadrao.Size = new System.Drawing.Size(580, 532);
-            this.panelDadosEnderecoPadrao.TabIndex = 5;
+            this.panelDadosEnderecoPadrao.TabIndex = 2;
             // 
             // panelEditarExcluirPadrao
             // 
             this.panelEditarExcluirPadrao.Location = new System.Drawing.Point(582, 622);
             this.panelEditarExcluirPadrao.Name = "panelEditarExcluirPadrao";
             this.panelEditarExcluirPadrao.Size = new System.Drawing.Size(580, 100);
-            this.panelEditarExcluirPadrao.TabIndex = 8;
+            this.panelEditarExcluirPadrao.TabIndex = 3;
             // 
             // FormFornecedoresCadastroEdicao
             // 
@@ -144,6 +144,7 @@ namespace ControleEstoqueDoZe
             this.Controls.Add(this.panelDadosEnderecoPadrao);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.labelFornecedorCadastroEdicaoTitulo);
+            this.KeyPreview = true;
             this.Name = "FormFornecedoresCadastroEdicao";
             this.Text = "Fornecedores Cadastro/Edição";
             this.Load += new System.EventHandler(this.FormFornecedoresCadastroEdicao_Load);
