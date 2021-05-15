@@ -44,6 +44,17 @@ namespace ControleEstoqueDoZe
 
             //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
             this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
+
+            salvarExcluirPadrao.buttonSalvarUserControl.Click += ButtonSalvarUserControl_Click;
+        }
+
+        private void ButtonSalvarUserControl_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show(Properties.Resources.ResourceManager.GetString("salvarMensagemConfirmar"), Properties.Resources.ResourceManager.GetString("tituloDesejaFecharSistema"), MessageBoxButtons.YesNo);
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void ButtonFecharUserControl_Click(object sender, EventArgs e)

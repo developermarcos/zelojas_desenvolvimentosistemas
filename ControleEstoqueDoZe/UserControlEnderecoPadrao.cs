@@ -52,6 +52,11 @@ namespace ControleEstoqueDoZe
 
             //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
             this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
+
+
+            //MASCARAS FORMATAÇÃO
+            maskedTextBoxEnderecoPadraoCep.Mask = Properties.Resources.ResourceManager.GetString("maskCep");
+            maskedTextBoxEnderecoPadraoEmail.Mask = Properties.Resources.ResourceManager.GetString("maskEmail");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

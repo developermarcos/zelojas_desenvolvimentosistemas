@@ -124,7 +124,7 @@
     <value />
   </data>
   <data name="buttonDashboard" xml:space="preserve">
-    <value>PAINEL DE CONTROLE</value>
+    <value>&amp;PAINEL DE CONTROLE</value>
   </data>
   <data name="buttonEstoqueCadastroEdicaoRemover" xml:space="preserve">
     <value>Subtrair</value>
@@ -143,34 +143,40 @@
     <value>Logar</value>
   </data>
   <data name="buttonMenuClientes" xml:space="preserve">
-    <value>Clientes</value>
+    <value>&amp;Clientes</value>
   </data>
   <data name="buttonMenuEmpresa" xml:space="preserve">
-    <value>Empresas</value>
+    <value>&amp;Empresas</value>
   </data>
   <data name="buttonMenuEstoque" xml:space="preserve">
-    <value>Estoque</value>
+    <value>&amp;Estoque</value>
   </data>
   <data name="buttonMenuFornecedores" xml:space="preserve">
-    <value>Fornecedores</value>
+    <value>&amp;Fornecedores</value>
+  </data>
+  <data name="buttonMenuidioma" xml:space="preserve">
+    <value>Idioma</value>
   </data>
   <data name="buttonMenuImportacaoXML" xml:space="preserve">
-    <value>Importação XML</value>
+    <value>&amp;Importação XML</value>
   </data>
   <data name="buttonMenuProdutos" xml:space="preserve">
-    <value>Produtos</value>
+    <value>&amp;Produtos</value>
   </data>
   <data name="buttonMenuUsuarios" xml:space="preserve">
-    <value>Usuários</value>
+    <value>&amp;Usuários</value>
   </data>
   <data name="buttonMenuVendas" xml:space="preserve">
-    <value>Vendas</value>
+    <value>&amp;Vendas</value>
   </data>
   <data name="buttonSalvarEstoqueCadastroEdicaoAdicionar" xml:space="preserve">
     <value>Alterar</value>
   </data>
   <data name="buttonSalvarUserControl" xml:space="preserve">
     <value>Salvarr</value>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancelar</value>
   </data>
   <data name="checkBoxProdutosCadastroEdicaoAtivo" xml:space="preserve">
     <value>Ativo</value>
@@ -219,6 +225,9 @@
   </data>
   <data name="groupBoxTipoEmpresaCadEditTipo" xml:space="preserve">
     <value>Tipo</value>
+  </data>
+  <data name="ignorar" xml:space="preserve">
+    <value>Ignorar</value>
   </data>
   <data name="labelClientesCadastroEdicaoCpfCnpj" xml:space="preserve">
     <value>CNPJ / CPF</value>
@@ -331,6 +340,27 @@
   <data name="labelUsuariosCadastroEdicaoTitulo" xml:space="preserve">
     <value>Cadastro / Edição de Usuários</value>
   </data>
+  <data name="maskCep" xml:space="preserve">
+    <value>00.000-000</value>
+  </data>
+  <data name="maskCnpj" xml:space="preserve">
+    <value>00.000.000/0000-00</value>
+  </data>
+  <data name="maskCpf" xml:space="preserve">
+    <value>000.000.000-00</value>
+  </data>
+  <data name="maskEmail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="maskTelefone" xml:space="preserve">
+    <value>(00) 90000-0000</value>
+  </data>
+  <data name="nao" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
   <data name="radioButtonEmpresaCadEditEstoque" xml:space="preserve">
     <value>Estoque</value>
   </data>
@@ -352,8 +382,14 @@
   <data name="salvarMensagemConfirmar" xml:space="preserve">
     <value>Deseja salvar alteração</value>
   </data>
+  <data name="sim" xml:space="preserve">
+    <value>Sim</value>
+  </data>
   <data name="String1" xml:space="preserve">
     <value />
+  </data>
+  <data name="tentarNovamente" xml:space="preserve">
+    <value>Tentar Novamente</value>
   </data>
   <data name="tituloDesejaFecharSistema" xml:space="preserve">
     <value>Sair</value>

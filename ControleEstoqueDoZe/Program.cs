@@ -24,12 +24,12 @@ namespace ControleEstoqueDoZe
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("es");
 
-            MessageBoxManager.Yes = "Simmmm";
-            MessageBoxManager.No = "Noo";
-            MessageBoxManager.Cancel = "Cancelarr";
-            MessageBoxManager.Retry = "Refazerr";
-            MessageBoxManager.Ignore = "Ignorarr";
-            MessageBoxManager.OK = "Okk";
+            MessageBoxManager.Yes = Properties.Resources.ResourceManager.GetString("sim");
+            MessageBoxManager.No = Properties.Resources.ResourceManager.GetString("nao");
+            MessageBoxManager.Cancel = Properties.Resources.ResourceManager.GetString("cancelar");
+            MessageBoxManager.Retry = Properties.Resources.ResourceManager.GetString("tentarNovamente");
+            MessageBoxManager.Ignore = Properties.Resources.ResourceManager.GetString("ignorar");
+            MessageBoxManager.OK = Properties.Resources.ResourceManager.GetString("ok");
             MessageBoxManager.Register();
 
             Application.EnableVisualStyles();

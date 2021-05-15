@@ -34,7 +34,7 @@ namespace ControleEstoqueDoZe
             this.dateTimePickerClientesCadastroEdicaoDataNascimento = new System.Windows.Forms.DateTimePicker();
             this.textBoxClientesCadastroEdicaoNomeRazaoSocial = new System.Windows.Forms.TextBox();
             this.labelClientesCadastroEdicaoRazaoSocial = new System.Windows.Forms.Label();
-            this.maskedTextBoxEmpresaCadEditNome = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBoxEmpresaCadEditCpfCnpj = new System.Windows.Forms.MaskedTextBox();
             this.labelClientesCadastroEdicaoCpfCnpj = new System.Windows.Forms.Label();
             this.textBoxClientesCadastroEdicaoNome = new System.Windows.Forms.TextBox();
             this.labelClientesCadastroEdicaoNome = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@ namespace ControleEstoqueDoZe
             this.panel1.Controls.Add(this.dateTimePickerClientesCadastroEdicaoDataNascimento);
             this.panel1.Controls.Add(this.textBoxClientesCadastroEdicaoNomeRazaoSocial);
             this.panel1.Controls.Add(this.labelClientesCadastroEdicaoRazaoSocial);
-            this.panel1.Controls.Add(this.maskedTextBoxEmpresaCadEditNome);
+            this.panel1.Controls.Add(this.maskedTextBoxEmpresaCadEditCpfCnpj);
             this.panel1.Controls.Add(this.labelClientesCadastroEdicaoCpfCnpj);
             this.panel1.Controls.Add(this.textBoxClientesCadastroEdicaoNome);
             this.panel1.Controls.Add(this.labelClientesCadastroEdicaoNome);
@@ -96,13 +96,13 @@ namespace ControleEstoqueDoZe
             this.labelClientesCadastroEdicaoRazaoSocial.TabIndex = 18;
             this.labelClientesCadastroEdicaoRazaoSocial.Text = "Razao Social";
             // 
-            // maskedTextBoxEmpresaCadEditNome
+            // maskedTextBoxEmpresaCadEditCpfCnpj
             // 
-            this.maskedTextBoxEmpresaCadEditNome.Location = new System.Drawing.Point(263, 37);
-            this.maskedTextBoxEmpresaCadEditNome.Name = "maskedTextBoxEmpresaCadEditNome";
-            this.maskedTextBoxEmpresaCadEditNome.Size = new System.Drawing.Size(211, 20);
-            this.maskedTextBoxEmpresaCadEditNome.TabIndex = 2;
-            this.maskedTextBoxEmpresaCadEditNome.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBoxEmpresaCadEditNome_MaskInputRejected);
+            this.maskedTextBoxEmpresaCadEditCpfCnpj.Location = new System.Drawing.Point(263, 37);
+            this.maskedTextBoxEmpresaCadEditCpfCnpj.Name = "maskedTextBoxEmpresaCadEditCpfCnpj";
+            this.maskedTextBoxEmpresaCadEditCpfCnpj.Size = new System.Drawing.Size(211, 20);
+            this.maskedTextBoxEmpresaCadEditCpfCnpj.TabIndex = 2;
+            this.maskedTextBoxEmpresaCadEditCpfCnpj.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBoxEmpresaCadEditNome_MaskInputRejected);
             // 
             // labelClientesCadastroEdicaoCpfCnpj
             // 
@@ -186,7 +186,7 @@ namespace ControleEstoqueDoZe
         private System.Windows.Forms.DateTimePicker dateTimePickerClientesCadastroEdicaoDataNascimento;
         private System.Windows.Forms.TextBox textBoxClientesCadastroEdicaoNomeRazaoSocial;
         private System.Windows.Forms.Label labelClientesCadastroEdicaoRazaoSocial;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxEmpresaCadEditNome;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxEmpresaCadEditCpfCnpj;
         private System.Windows.Forms.Label labelClientesCadastroEdicaoCpfCnpj;
         private System.Windows.Forms.TextBox textBoxClientesCadastroEdicaoNome;
         private System.Windows.Forms.Label labelClientesCadastroEdicaoNome;

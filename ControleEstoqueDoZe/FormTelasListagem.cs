@@ -85,8 +85,33 @@ namespace ControleEstoqueDoZe
             menuPrincipal.buttonMenuImportacaoXML.Click += ButtonMenuImportacaoXML_Click;
             menuPrincipal.buttonMenuVendas.Click += ButtonMenuVendas_Click;
             menuPrincipal.buttonMenuUsuarios.Click += ButtonMenuUsuarios_Click;
+            menuPrincipal.buttonMenuidioma.Click += ButtonMenuidioma_Click;
 
 
+            //------------------------------------------------------------------------------------------
+            //CRIA OUVINTES PARA ABRIR TELA ATRAVÉS DO MENU DE CONTEXTO
+            lojasToolStripMenuItem.Click += new EventHandler(ButtonMenuEmpresa_Click);
+            funcionariosToolStripMenuItem.Click += new EventHandler(ButtonMenuUsuarios_Click);
+            fornecedoresToolStripMenuItem.Click += new EventHandler(ButtonMenuFornecedores_Click);
+            produtosToolStripMenuItem.Click += new EventHandler(ButtonMenuProdutos_Click);
+            vendasToolStripMenuItem.Click += new EventHandler(ButtonMenuVendas_Click);
+            configuracoesToolStripMenuItem.Click += new EventHandler(ButtonMenuidioma_Click);
+            sairToolStripMenuItem.Click += new EventHandler(ButtonHeaderSairSistema_Click);
+
+            lojasToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuEmpresa");
+            funcionariosToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuUsuarios");
+            fornecedoresToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuFornecedores");
+            produtosToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuProdutos");
+            vendasToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuVendas");
+            configuracoesToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonMenuidioma");
+            sairToolStripMenuItem.Text = Properties.Resources.ResourceManager.GetString("buttonHeaderSairSistema");
+
+        }
+
+        private void ButtonMenuidioma_Click(object sender, EventArgs e)
+        {
+            FormIdioma formIdioma = new FormIdioma();
+            formIdioma.ShowDialog();
         }
 
         //--------------------- FUNÇÕES DOS BOTÕES MENUS PRINCIPAL ---------------------
@@ -269,6 +294,29 @@ namespace ControleEstoqueDoZe
             {
                 e.Cancel = true;
             }
+        }
+
+
+        //------------------------------------- BANDEJA ---------------------------------------------
+        private void FormTelasListagem_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+                notifyIconSystemTray.Visible = true;
+                notifyIconSystemTray.ShowBalloonTip(1000);
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIconSystemTray.Visible = false;
+            }
+        }
+
+        private void notifyIconSystemTray_DoubleClick(object sender, EventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Maximized;
+            notifyIconSystemTray.Visible = false;
         }
     }
 }

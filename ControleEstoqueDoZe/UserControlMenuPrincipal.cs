@@ -41,7 +41,8 @@ namespace ControleEstoqueDoZe
             buttonMenuImportacaoXML.Text = Properties.Resources.ResourceManager.GetString("buttonMenuImportacaoXML");
             buttonMenuVendas.Text = Properties.Resources.ResourceManager.GetString("buttonMenuVendas");
             buttonMenuUsuarios.Text = Properties.Resources.ResourceManager.GetString("buttonMenuUsuarios");
-            
+            buttonMenuidioma.Text = Properties.Resources.ResourceManager.GetString("buttonMenuidioma");
+
 
             botaoClicado = botao;
             telaAtual = tela;

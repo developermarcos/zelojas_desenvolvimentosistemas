@@ -27,8 +27,8 @@ namespace ControleEstoqueDoZe
             textBoxClientesCadastroEdicaoNome.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
             textBoxClientesCadastroEdicaoNome.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
 
-            maskedTextBoxEmpresaCadEditNome.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
-            maskedTextBoxEmpresaCadEditNome.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+            maskedTextBoxEmpresaCadEditCpfCnpj.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            maskedTextBoxEmpresaCadEditCpfCnpj.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
 
             textBoxClientesCadastroEdicaoNomeRazaoSocial.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
             textBoxClientesCadastroEdicaoNomeRazaoSocial.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
@@ -46,11 +46,19 @@ namespace ControleEstoqueDoZe
             salvarExcluirPadrao.buttonFecharUserControl.Click += ButtonFecharUserControl_Click;
             salvarExcluirPadrao.buttonSalvarUserControl.Click += ButtonSalvarUserControl_Click;
 
+
+            //MASCARAS DE CAMPOS
+            maskedTextBoxEmpresaCadEditCpfCnpj.Mask = Properties.Resources.ResourceManager.GetString("maskCpfCnpj");
+
         }
 
         private void ButtonSalvarUserControl_Click(object sender, EventArgs e)
         {
-            
+            DialogResult dialog = MessageBox.Show(Properties.Resources.ResourceManager.GetString("salvarMensagemConfirmar"), Properties.Resources.ResourceManager.GetString("tituloDesejaFecharSistema"), MessageBoxButtons.YesNo);
+            if (dialog == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
         private void ButtonFecharUserControl_Click(object sender, EventArgs e)
