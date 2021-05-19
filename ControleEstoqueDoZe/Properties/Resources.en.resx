@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="buttonContinuarSistemaConfirmacao" xml:space="preserve">
+    <value>Continue</value>
+  </data>
   <data name="buttonDashboard" xml:space="preserve">
     <value>Dashboard</value>
+  </data>
+  <data name="buttonEnviarBandejaConfirmacao" xml:space="preserve">
+    <value>Send to tray</value>
   </data>
   <data name="buttonEstoqueCadastroEdicaoRemover" xml:space="preserve">
     <value>Subtract</value>
@@ -161,6 +167,9 @@
   </data>
   <data name="buttonMenuVendas" xml:space="preserve">
     <value>&amp;Sales</value>
+  </data>
+  <data name="buttonSairSistemaConfirmacao" xml:space="preserve">
+    <value>Exit</value>
   </data>
   <data name="buttonSalvarEstoqueCadastroEdicaoAdicionar" xml:space="preserve">
     <value>Alter</value>
@@ -311,6 +320,9 @@
   </data>
   <data name="labelIdiomaTitulo" xml:space="preserve">
     <value>Select Language</value>
+  </data>
+  <data name="labelMensagemSairSistema" xml:space="preserve">
+    <value>Do you want to exit the system</value>
   </data>
   <data name="labelNomeLoginSistema" xml:space="preserve">
     <value>Name</value>

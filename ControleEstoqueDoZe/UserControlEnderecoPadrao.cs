@@ -15,6 +15,8 @@ namespace ControleEstoqueDoZe
         public UserControlEnderecoPadrao()
         {
             InitializeComponent();
+
+            //Internacionalização de cada label
             labelEnderecoPadraoCep.Text = Properties.Resources.ResourceManager.GetString("labelEnderecoPadraoCep");
             labelEnderecoPadraoRua.Text = Properties.Resources.ResourceManager.GetString("labelEnderecoPadraoRua");
             labelEnderecoPadraoBairro.Text = Properties.Resources.ResourceManager.GetString("labelEnderecoPadraoBairro");
@@ -52,11 +54,12 @@ namespace ControleEstoqueDoZe
 
             //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
             this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
-
+            
 
             //MASCARAS FORMATAÇÃO
             maskedTextBoxEnderecoPadraoCep.Mask = Properties.Resources.ResourceManager.GetString("maskCep");
-            maskedTextBoxEnderecoPadraoEmail.Mask = Properties.Resources.ResourceManager.GetString("maskEmail");
+            maskedTextBoxEnderecoPadraoTelefone.Mask = Properties.Resources.ResourceManager.GetString("maskTelefone");
+            //maskedTextBoxEnderecoPadraoEmail.Mask = Properties.Resources.ResourceManager.GetString("maskEmail");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

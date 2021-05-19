@@ -123,8 +123,14 @@
   <data name=".." xml:space="preserve">
     <value />
   </data>
+  <data name="buttonContinuarSistemaConfirmacao" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
   <data name="buttonDashboard" xml:space="preserve">
     <value>&amp;PAINEL DE CONTROLE</value>
+  </data>
+  <data name="buttonEnviarBandejaConfirmacao" xml:space="preserve">
+    <value>Enviar para a bandeja</value>
   </data>
   <data name="buttonEstoqueCadastroEdicaoRemover" xml:space="preserve">
     <value>Subtrair</value>
@@ -168,6 +174,9 @@
   </data>
   <data name="buttonMenuVendas" xml:space="preserve">
     <value>&amp;Vendas</value>
+  </data>
+  <data name="buttonSairSistemaConfirmacao" xml:space="preserve">
+    <value>Sair</value>
   </data>
   <data name="buttonSalvarEstoqueCadastroEdicaoAdicionar" xml:space="preserve">
     <value>Alterar</value>
@@ -310,6 +319,9 @@
   <data name="labelIdiomaTitulo" xml:space="preserve">
     <value>Selecione o idioma</value>
   </data>
+  <data name="labelMensagemSairSistema" xml:space="preserve">
+    <value>Deseja sair do sistema?</value>
+  </data>
   <data name="labelNomeLoginSistema" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -348,6 +360,9 @@
   </data>
   <data name="maskCpf" xml:space="preserve">
     <value>000.000.000-00</value>
+  </data>
+  <data name="maskDiaMesAno" xml:space="preserve">
+    <value>00/00/0000</value>
   </data>
   <data name="maskEmail" xml:space="preserve">
     <value />

@@ -32,9 +32,9 @@ namespace ControleEstoqueDoZe
 
             textBoxClientesCadastroEdicaoNomeRazaoSocial.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
             textBoxClientesCadastroEdicaoNomeRazaoSocial.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
-            
-            dateTimePickerClientesCadastroEdicaoDataNascimento.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
-            dateTimePickerClientesCadastroEdicaoDataNascimento.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
+
+            maskedTextBoxEmpresaCadEditCpfCnpj.Enter += new EventHandler(ClassHelpers.CampoEventoEnter);
+            maskedTextBoxEmpresaCadEditCpfCnpj.Leave += new EventHandler(ClassHelpers.CampoEventoLeave);
 
             //VERIFICA BOTÃO ENTER E PASSA PARA PROXIMO CAMPO OU FECHA FORMULÁRIO
             this.KeyDown += new KeyEventHandler(ClassHelpers.FormEventoKeyDown);
@@ -48,8 +48,8 @@ namespace ControleEstoqueDoZe
 
 
             //MASCARAS DE CAMPOS
-            maskedTextBoxEmpresaCadEditCpfCnpj.Mask = Properties.Resources.ResourceManager.GetString("maskCpfCnpj");
-
+            maskedTextBoxEmpresaCadEditCpfCnpj.Mask = Properties.Resources.ResourceManager.GetString("maskCnpj");
+            maskedTextBoxClientesCadastroEdicaoDataNascimento.Mask = Properties.Resources.ResourceManager.GetString("maskDiaMesAno");
         }
 
         private void ButtonSalvarUserControl_Click(object sender, EventArgs e)
@@ -66,14 +66,6 @@ namespace ControleEstoqueDoZe
             Close();
         }
 
-        private void FormClientesCadastroEdicao_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void maskedTextBoxEmpresaCadEditNome_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
+        
     }
 }

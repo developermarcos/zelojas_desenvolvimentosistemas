@@ -72,6 +72,12 @@
     <Compile Include="FormConfirmaAlteracao.Designer.cs">
       <DependentUpon>FormConfirmaAlteracao.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormConfirmaSaidaSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmaSaidaSistema.Designer.cs">
+      <DependentUpon>FormConfirmaSaidaSistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="MessageBoxManager.cs" />
     <Compile Include="ClassHelpers.cs" />
     <Compile Include="FormEmpresasCadastroEdicao.cs">
@@ -189,6 +195,9 @@
     </Compile>
     <EmbeddedResource Include="FormConfirmaAlteracao.resx">
       <DependentUpon>FormConfirmaAlteracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmaSaidaSistema.resx">
+      <DependentUpon>FormConfirmaSaidaSistema.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormEmpresasCadastroEdicao.resx">
       <DependentUpon>FormEmpresasCadastroEdicao.cs</DependentUpon>

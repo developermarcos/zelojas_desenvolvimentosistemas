@@ -45,8 +45,8 @@ namespace ControleEstoqueDoZe
         private void buttonHeaderSairSistema_Click(object sender, EventArgs e)
         {
 
-            FormLoginSistema telaLogin = new FormLoginSistema();
-            telaLogin.Show();
+            //FormLoginSistema telaLogin = new FormLoginSistema();
+            //telaLogin.Show();
             
 ;        }
 

@@ -284,15 +284,23 @@ namespace ControleEstoqueDoZe
 
         private void FormTelasListagem_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialog = MessageBox.Show(Properties.Resources.ResourceManager.GetString("fraseDesejaFecharSistema"), Properties.Resources.ResourceManager.GetString("tituloDesejaFecharSistema"), MessageBoxButtons.YesNo);
-            if (dialog == DialogResult.Yes)
+            FormConfirmaSaidaSistema modalSairSistema = new FormConfirmaSaidaSistema();
+            DialogResult resultado = modalSairSistema.ShowDialog();
+            if (resultado == DialogResult.Yes)
             {
                 Application.Exit();
-
             }
-            else
+            else if (resultado == DialogResult.No)
             {
                 e.Cancel = true;
+            }
+            else if (resultado == DialogResult.Abort)
+            {
+                //falta implementar a bandeja
+                this.WindowState = FormWindowState.Minimized;
+                Hide();
+                notifyIconSystemTray.Visible = true;
+                notifyIconSystemTray.ShowBalloonTip(1000);
             }
         }
 

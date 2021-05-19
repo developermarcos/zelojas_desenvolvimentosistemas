@@ -83,3 +83,4 @@ C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe
 C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormIdioma.resources
 C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.UserControlDashboard.resources
 C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormConfirmaAlteracao.resources
+C:\Users\Marcos Lima\Desktop\zelojas_desenvolvimentosistemas\ControleEstoqueDoZe\obj\Debug\ControleEstoqueDoZe.FormConfirmaSaidaSistema.resources
